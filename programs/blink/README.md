@@ -4,11 +4,11 @@ I've been using [Platformio](https://platformio.org) & [Visual Studio Code](http
 
 ### Uploading
 
-Uploading was done with an usbtiny device. 
-The upload command for flashing the atmega328p is:
+Uploading was done with a cheap stlink device. 
+The upload command for flashing the blackpill is:
 
 ```sh
-$ platformio run -t program
+$ platformio run -t upload
 ```
 
 ### License
